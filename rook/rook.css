@@ -7,3 +7,23 @@
 #versus {
     padding: auto 10px ;
 }
+
+.Black {
+    background-color: black !important;
+    color: white;
+}
+
+.Red {
+    background-color: red !important;
+    color: white;
+}
+
+.Yellow {
+        background-color: yellow !important;
+    color: black;
+}
+
+.Green {
+    background-color: green !important;
+    color: white;
+}
