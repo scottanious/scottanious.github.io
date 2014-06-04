@@ -97,7 +97,7 @@
                         </div>
                         <div class="input-group pad5">
                             <span class="input-group-addon">Bid</span>
-                            <input type="text" class="form-control" placeholder="Bid" ng-model="curHand.bid" />
+                            <input type="number" step="1" class="form-control" placeholder="Bid" ng-model="curHand.bid" />
                         </div>
                         <div class="input-group pad5">
                             <span class="input-group-addon">Trump</span>
@@ -114,7 +114,7 @@
                         </div>
                         <div class="input-group pad5">
                             <span class="input-group-addon">Opposition Score</span>
-                            <input type="text" class="form-control" placeholder="Bid" ng-change="recalculateScores()" ng-model="curHand.opposingScore" />
+                            <input type="number" step="1" class="form-control" placeholder="Bid" ng-change="recalculateScores()" ng-model="curHand.opposingScore" />
                         </div>
                         <button type="button" ng-click="newHand()" value="New Hand">New Hand</button>
                     </form>
